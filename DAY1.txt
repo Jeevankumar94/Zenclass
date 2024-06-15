@@ -1,0 +1,62 @@
+1.Hypertext Transfer Protocol(http):
+                The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web, and is used to load webpages using hypertext links. HTTP is an application layer protocol designed to transfer information between networked devices and runs on top of other layers of the network protocol stack.
+             The Hypertext Transfer Protocol, or HTTP, is an application protocol that has been the de facto standard for communication on the World Wide Web since its invention in 1989. From the release of HTTP/1.1 in 1997 until recently, there have been few revisions to the protocol.
+
+HTTP2:
+         HTTP/2 offers a feature called weighted prioritization. This allows developers to decide which page resources will load first, every time. In HTTP/2, when a client makes a request for a webpage, the server sends several streams of data to the client at once, instead of sending one thing after another.
+
+Difference between HTTP/1.1 and HTTP/2 are:
+
+HTTP/1.1:
+
+It works on the textual format.
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+It uses requests resource Inlining for use getting multiple pages
+
+HTTP/2:
+
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses PUSH frame by server that collects all multiple pages.
+
+2. Object:
+              An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method. Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life.
+
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+
+Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+Objects and properties: 
+         A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
+
+objectName.propertyName
+
+Create JavaScript Object with Object Literal:
+                   One of easiest way to create a javascript object is object literal, simply define the property and values inside curly braces as shown below
+
+let bike = {name: 'SuperSport', maker:'BMW s1000rr', engine:'999cc'};
+
+Understanding Objects in JavaScript :
+            In JavaScript, objects are collections of key-value pairs, where keys are strings (or symbols) and values can be of any data type, including other objects. Objects are used to represent real-world entities, data structures, and more complex data types.
+
+const person = {
+  name: "Jeeva S",
+  age: 28,
+  email: "jeeva@gmail.com"
+};
+
+Internal Representation of Objects: 
+         Internally, JavaScript engines use various data structures to represent objects efficiently. One common approach is using a hash table or a similar structure to store the object’s properties and their corresponding values. This allows for fast access and manipulation of properties.
+
+Internal Representation:
+{
+  name: "Jeeva S",
+  age: 28,
+  email: "jeeva@gmail.com"
+}
+
+
+
