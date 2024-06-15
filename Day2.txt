@@ -1,0 +1,51 @@
+Document Object:
+                 a document is an object that gives access to and manipulates the currently loaded HTML document. It is a part of the window global object, which represents the window of the current web page.
+
+Syntax:
+ document.property_name;
+
+Few properties and methods of document objects are,
+
+activeElement: It returns the currently active elements in the document.
+body: It returns the contents of the body element.
+
+Methods of Document
+
+Syntax:
+document.method_name;
+
+addEventListener(): It is used to attach an event handler to the specified element.
+adoptNode(): It is used to adopt a node from another document and it returns a node object, representing the adopted node.
+
+Window Object:
+       The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+Syntax:
+window.property_name;
+
+
+Properties of the window:
+
+Closed: It holds a Boolean value that represents whether the window is closed or not.
+console: It returns a reference to the console object which provides access to the browser’s debugging console.
+
+Methods of Window:
+
+alert(): It is used to display an alert box. It displays a specified message along with an OK button and is generally used to make sure that the information comes through the user.
+atob(): It is used for decoding a base-64 encoded string. It is used to decode a string of data that has been encoded using the btoa() method.
+
+Difference between document and window Object:
+
+document:
+It represents any HTML document or web page that is loaded in the browser.
+It is loaded inside the window.
+It is the object of window property.
+
+window Object:
+it represents a browser window or frame that displays the contents of the webpage. 
+It is the very first object that is loaded in the browser.
+It is the object of the browser.  
+
+
+
+
